@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/facebook (1).png">
+  <script src="https://kit.fontawesome.com/9b197449cc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/model.css">
+  <link rel="stylesheet" href="./style/style.css">
+ 
+  <title id="pageTitle">Sign up for Facebook | Facebook</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <img src="./assets/image.svg" alt="">
+  </header>
+  <div class="main">
+    <!-- Form Box -->
+    <div class="content">
+      <div class="top">
+        <div class="first">Create a new account</div>
+        <div class="second">It's quick and easy.</div>
+      </div>
+      <div class="registration">
+        <div class="form">
+          <form  action="./index.html" id="form1"  onsubmit="return  onSubmit() ">
+            <div class="fullname">
+              <div class="lfloat inputControl">
+                <div class="userInputname set q">
+                  <input type="text" class="inputtext" placeholder="First name" id="username">
+                  <div class="errorIcon"><i class="fa-solid fa-circle-exclamation"></i></div>
+                </div>
+              </div>
+              <div class="rfloat inputControl">
+                <div class="userInputname set w">
+                  <input type="text" class="inputtext" placeholder="Surname" id="surname">
+                  <div class="errorIcon"><i class="fa-solid fa-circle-exclamation"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile prel inputControl set">
+              <input type="text" class="inputtext ph" placeholder="Mobile number or email address" id="mobile">
+              <div class="errorIcon asap"><i class="fa-solid fa-circle-exclamation"></i></div>
+            </div>
+            <div class="password prel inputControl">
+              <input type="password" class="inputtext ps" placeholder="New password" id="password">
+              <div class="errorIcon asap"><i class="fa-solid fa-circle-exclamation"></i></div>
+            </div>
+            <div class="birthday  set">
+              <div class="content e">
+                Date of birth
+                <a href="" class="iconAnchor">
+                  <img src="./assets/question.png" alt="">
+                </a>
+                <div class="errorIcon date"><i class="fa-solid fa-circle-exclamation "></i></div>
+              </div>
+              <div class="select  e s">
+                <span>
+                  <select class="sel" id="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17" selected="1">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                  <select id="month" title="Month" class="sel">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep" selected="1">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                  </select>
+                  <select id="year" title="Year" class="sel">
+                    <option value="2023" selected="1">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                    <option value="1987">1987</option>
+                    <option value="1986">1986</option>
+                    <option value="1985">1985</option>
+                    <option value="1984">1984</option>
+                    <option value="1983">1983</option>
+                    <option value="1982">1982</option>
+                    <option value="1981">1981</option>
+                    <option value="1980">1980</option>
+                    <option value="1979">1979</option>
+                    <option value="1978">1978</option>
+                    <option value="1977">1977</option>
+                    <option value="1976">1976</option>
+                    <option value="1975">1975</option>
+                    <option value="1974">1974</option>
+                    <option value="1973">1973</option>
+                    <option value="1972">1972</option>
+                    <option value="1971">1971</option>
+                    <option value="1970">1970</option>
+                    <option value="1969">1969</option>
+                    <option value="1968">1968</option>
+                    <option value="1967">1967</option>
+                    <option value="1966">1966</option>
+                    <option value="1965">1965</option>
+                    <option value="1964">1964</option>
+                    <option value="1963">1963</option>
+                    <option value="1962">1962</option>
+                    <option value="1961">1961</option>
+                    <option value="1960">1960</option>
+                    <option value="1959">1959</option>
+                    <option value="1958">1958</option>
+                    <option value="1957">1957</option>
+                    <option value="1956">1956</option>
+                    <option value="1955">1955</option>
+                    <option value="1954">1954</option>
+                    <option value="1953">1953</option>
+                    <option value="1952">1952</option>
+                    <option value="1951">1951</option>
+                    <option value="1950">1950</option>
+                    <option value="1949">1949</option>
+                    <option value="1948">1948</option>
+                    <option value="1947">1947</option>
+                    <option value="1946">1946</option>
+                    <option value="1945">1945</option>
+                    <option value="1944">1944</option>
+                    <option value="1943">1943</option>
+                    <option value="1942">1942</option>
+                    <option value="1941">1941</option>
+                    <option value="1940">1940</option>
+                    <option value="1939">1939</option>
+                    <option value="1938">1938</option>
+                    <option value="1937">1937</option>
+                    <option value="1936">1936</option>
+                    <option value="1935">1935</option>
+                    <option value="1934">1934</option>
+                    <option value="1933">1933</option>
+                    <option value="1932">1932</option>
+                    <option value="1931">1931</option>
+                    <option value="1930">1930</option>
+                    <option value="1929">1929</option>
+                    <option value="1928">1928</option>
+                    <option value="1927">1927</option>
+                    <option value="1926">1926</option>
+                    <option value="1925">1925</option>
+                    <option value="1924">1924</option>
+                    <option value="1923">1923</option>
+                    <option value="1922">1922</option>
+                    <option value="1921">1921</option>
+                    <option value="1920">1920</option>
+                    <option value="1919">1919</option>
+                    <option value="1918">1918</option>
+                    <option value="1917">1917</option>
+                    <option value="1916">1916</option>
+                    <option value="1915">1915</option>
+                    <option value="1914">1914</option>
+                    <option value="1913">1913</option>
+                    <option value="1912">1912</option>
+                    <option value="1911">1911</option>
+                    <option value="1910">1910</option>
+                    <option value="1909">1909</option>
+                    <option value="1908">1908</option>
+                    <option value="1907">1907</option>
+                    <option value="1906">1906</option>
+                    <option value="1905">1905</option>
+                  </select></span>
+              </div>
+            </div>
+            <div class="gender">
+              <div class="content ge">
+                Gender
+                <a href="" class="iconAnchor">
+                  <img src="./assets/question.png" alt="">
+                </a>
+                <div class="errorIcon date"><i class="fa-solid fa-circle-exclamation"></i></div>
+              </div>
+              <span class="mainBox s ge">
+                <span class="genderBox">
+                  <label class="labelRadio" for="female">Female</label>
+                  <input type="radio" class="labelInput"  value="Female" name="g" id="female">
+                </span>
+                <span class="genderBox">
+                  <label class="labelRadio" for="male">Male</label>
+                  <input type="radio" class="labelInput"  value="Male" name="g" id="male">
+                </span>
+                <span class="genderBox">
+                  <label class="labelRadio" for="custom">Custom</label>
+                  <input type="radio" class="labelInput"  value="Custom" name="g" id="custom">
+                </span>
+              </span>
+            </div>
+            <div class="customGender">
+              <div class="mtm" id="custom_gender_container">
+                <div class="prel csG">
+                  <select aria-label="Select your pronoun" class="questionSelect questionicon set cs">
+                    <option selected="1" value="" disabled="1">Select your pronoun</option>
+                    <option value="1">She: "Wish her a happy birthday!"</option>
+                    <option value="2">He: "Wish him a happy birthday!"</option>
+                    <option value="3">They: "Wish them a happy birthday!"</option>
+                  </select>
+                  <div class="errorIcon customIcon asap1"><i class="fa-solid fa-circle-exclamation"></i></div>
+                </div>
+                <div class="pronounContent">Your pronoun is visible to everyone.</div>
+                <div>
+                  <div class="center">
+                    <input type="text" class="c" placeholder="Gender (optional)">
+                  </div>
+                </div>
+              </div>
+              <div class="anchor">
+                <p class="anchorPara">People who use our service may have uploaded your contact information to Facebook.
+                  <a href="" target="_blank">Learn more</a>.
+                </p>
+              </div>
+              <div class="anchor">
+                <p class="anchorPara">By clicking Sign Up, you agree to our
+                  <a href="" target="_blank">Terms</a>,
+                  <a href="" target="_blank">Privacy Policy</a> and
+                  <a href="" target="_blank">Cookies Policy</a>.
+                  You may receive SMS notifications from us and can opt out at any time.
+                </p>
+              </div>
+              <div class="buttonDiv">
+                <button  class="button">
+                  Sign Up
+                </button>
+              </div>
+              <div class="alreadyAccount">
+                <a href="" class="alreadyAccount_Anchor">Already have an account?</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="model">
+    <div class="new">
+      <div class="cross"><i class="fa-solid fa-xmark"></i></div>
+      <div class="color"><h1>Data You Enter</h1></div>
+      
+      <div class="data">
+        <div class="first b">Username : <span id="user"></span></div>
+        <div class="second b">Surname : <span id="sur"></span></div>
+        <div class="third b">Mobile : <span id="mob"></span></div>
+        <div class="fourth b">Password : <span id="pass"></span></div>
+        <div class="fifth b">Date of Birth : <span id="dayM"></span>/<span id="monthM"></span>/<span id="yearM"></span>
+        </div>
+        <div class="sixth b">Gender : <span id="gen"></span></div>
+      </div>
+      <div class="img"><img src="./assets/image.svg" alt=""></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <ul class="uiList localeSelectorList">
+        <li>English (UK)</li>
+        <li>
+          <a href="#" title="Urdu">اردو</a>
+        </li>
+        <li>
+          <a href="#" title="Pashto">پښتو</a>
+        </li>
+        <li>
+          <a href="#" title="Arabic">العربية</a>
+        </li>
+        <li>
+          <a href="#" title="Hindi">हिन्दी</a>
+        </li>
+        <li>
+          <a href="#" title="Bengali">বাংলা</a>
+        </li>
+        <li>
+          <a href="#" title="Punjabi">ਪੰਜਾਬੀ</a>
+        </li>
+        <li>
+          <a href="#" title="Persian">فارسی</a>
+        </li>
+        <li>
+          <a href="#" title="Gujarati">ગુજરાતી</a>
+        </li>
+        <li>
+          <a href="#" title="German">Deutsch</a>
+        </li>
+        <li>
+          <a href="#" title="Spanish">Español</a>
+        </li>
+        <li>
+          <button class="plusButton" href="#" title="Show more languages">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </li>
+      </ul>
+      <div id="curve"></div>
+      <div class="linksFooter">
+        <ul class="localeSelectorList pageFooterLinkList ">
+          <li>
+            <a href="#" title="Sign up for Facebook">Sign Up</a>
+          </li>
+          <li>
+            <a href="#" title="Log in to Facebook">Log in</a>
+          </li>
+          <li>
+            <a href="#" title="Take a look at Messenger.">Messenger</a>
+          </li>
+          <li>
+            <a href="#" title="Facebook Lite for Android.">Facebook Lite</a>
+          </li>
+          <li>
+            <a href="#" title="Browse in Video">Video</a>
+          </li>
+          <li>
+            <a href="#" title="Take a look at popular places on Facebook.">Places</a>
+          </li>
+          <li>
+            <a href="#" title="Check out Facebook games.">Games</a>
+          </li>
+          <li>
+            <a href="#" title="Buy and sell on Facebook Marketplace.">Marketplace</a>
+          </li>
+          <li>
+            <a href="#" title="Learn more about Meta Pay" target="_blank">Meta Pay</a>
+          </li>
+          <li>
+            <a href="#" title="Discover Meta" target="_blank">Meta Store</a>
+          </li>
+          <li>
+            <a href="#" title="Learn more about Meta Quest" target="_blank">Meta Quest</a>
+          </li>
+          <li>
+            <a href="#" title="Take a look at Instagram" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="#" title="Check out Threads" target="_blank">Threads</a>
+          </li>
+          <li>
+            <a href="#" title="Donate to worthy causes.">Fundraisers</a>
+          </li>
+          <li>
+            <a href="#" title="Browse our Facebook Services directory.">Services</a>
+          </li>
+          <li>
+            <a href="#"
+              title="See the Voting Information Centre">Voting Information Centre</a>
+          </li>
+          <li>
+            <a href="#"
+              title="Learn how we collect, use and share information to support Facebook.">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#"
+              title="Learn how to manage and control your privacy on Facebook.">Privacy Centre</a>
+          </li>
+          <li>
+            <a href="#" title="Explore our groups.">Groups</a>
+          </li>
+          <li>
+            <a href="#" 
+              title="Read our blog, discover the resource centre and find job opportunities.">About</a>
+          </li>
+          <li>
+            <a href="#"
+              title="Advertise on Facebook">Create ad</a>
+          </li>
+          <li>
+            <a href="#" title="Create a Page">Create Page</a>
+          </li>
+          <li><a href="#" title="Develop on our platform.">Developers</a>
+          </li>
+          <li>
+            <a href="#" title="Make your next career move to our brilliant company.">Careers</a>
+          </li>
+          <li>
+            <a href="#" title="Learn about cookies and Facebook." data-nocookies="1">Cookies</a>
+          </li>
+          <li>
+            <a href="#"
+              title="Learn about AdChoices.">AdChoices</a>
+          </li>
+          <li>
+            <a href="#" title="Review our terms and policies.">Terms</a>
+          </li>
+          <li>
+            <a href="#" title="Visit our Help Centre.">Help</a>
+          </li>
+          <li>
+            <a href="#" title="Visit our contact uploading and non-users notice.">Contact uploading
+              and non-users</a>
+          </li>
+          <li>
+            <a  href="#" title="View and edit your Facebook settings.">Settings</a>
+          </li>
+          <li>
+            <a  href="#"
+              title="View your activity log">Activity log</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <div>
+          <span> Meta © 2023</span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="./script/newFile.js"></script>
+</body>
+
+</html>
