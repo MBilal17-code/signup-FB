@@ -131,28 +131,28 @@ function onSubmit() {
     e1.classList.add('error');
     rValue = false;
   }
-  // if (male.value != "Male" || female.value != "Female" || custom.value != "Custom") {
-  //   var ge = document.getElementsByClassName('ge')[0];
-  //   ge.classList.add('error');
-  //   var ge1 = document.getElementsByClassName('ge')[1];
-  //   ge1.classList.add('error');
-  //   rValue = false;
-  // }
+  if (male.value != "Male" || female.value != "Female" || custom.value != "Custom") {
+    var ge = document.getElementsByClassName('ge')[0];
+    ge.classList.add('error');
+    var ge1 = document.getElementsByClassName('ge')[1];
+    ge1.classList.add('error');
+    rValue = false;
+  }
 
-  // if (cs.value != 1 || cs.value != 2 || cs.value != 3) {
-  //   var csG = document.getElementsByClassName('csG')[0];
-  //   csG.classList.add('error');
-  //   rValue = false;
-  // }
-  // else {
-  //   user.innerHTML = usersname.value.trim();
-  //   sur.innerHTML = surname.value.trim();
-  //   mob.innerHTML = mobile.value.trim();
-  //   pass.innerHTML = password.value.trim();
-  //   dayM.innerHTML = day.value.trim();
-  //   monthM.innerHTML = month.value.trim();
-  //   yearM.innerHTML = year.value.trim();
-  // }
+  if (cs.value != 1 || cs.value != 2 || cs.value != 3) {
+    var csG = document.getElementsByClassName('csG')[0];
+    csG.classList.add('error');
+    rValue = false;
+  }
+  else {
+    user.innerHTML = usersname.value.trim();
+    sur.innerHTML = surname.value.trim();
+    mob.innerHTML = mobile.value.trim();
+    pass.innerHTML = password.value.trim();
+    dayM.innerHTML = day.value.trim();
+    monthM.innerHTML = month.value.trim();
+    yearM.innerHTML = year.value.trim();
+  }
 
     btn.onclick = () => {
       model.style.transform = "translateY(0)";
